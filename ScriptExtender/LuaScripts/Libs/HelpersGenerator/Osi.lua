@@ -1,5 +1,4 @@
----@diagnostic disable
-local text = [[--#region Osiris Calls
+#region Osiris Calls
 
 --- @param Character string
 --- @param Talent string
@@ -6079,6 +6078,3 @@ function Osi.NRD_GetVersion() end
 --- @param Path string
 --- @return string Contents
 function Osi.NRD_LoadFile(Path) end
-
---#endregion]]
-return text
